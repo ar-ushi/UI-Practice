@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="popup.js"></script>
+        <link rel="stylesheet" href="popup.css">
+        <link rel="stylesheet" href="../globalstyles.css">
+        <title>Popup Demo</title>
+    </head>
+    <body>
+        <div class="flx-center margin-top-2rem">
+            <button id="show-popup" onclick="showPopup()" data-open="modal">Show Popup</button>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="flx-center flx-dir-col modal-content">
+              <div class="modal-header">Header</div>
+              <span class="line"></span>
+              <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reprehenderit tempora exercitationem, hic vel iure deserunt? Tempore corporis eveniet architecto qui aliquid quam quis, voluptate
+              </div>
+              <button onclick="closePopup()">Close Popup</button>
+            </div>
+        </div>
+    </body>
+</html>

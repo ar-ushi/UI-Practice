@@ -1,3 +1,7 @@
+body{
+    padding: 1rem 0 0 2rem;
+}
+
 .container{
     border: 2px solid blue;
     margin-top: 1rem;
