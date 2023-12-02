@@ -10,9 +10,11 @@
 <body>
     <section>
         <div class="user-input">
-            <input id="key" placeholder="key" />
-            <input id="value" placeholder="value" />
-            <button>+</button>
+            <span class="arrow hide">▶</span>
+            <input id="key" placeholder="key" type="text" />
+            <input id="value" placeholder="value" type="text"/>
+            <button onclick="nestJSON()">+</button>
+            <button onclick="removeJSON()">-</button>
         </div>
          <button onclick="createJSON()">Get JSON</button>
          <div id="jsonOutput"></div>
